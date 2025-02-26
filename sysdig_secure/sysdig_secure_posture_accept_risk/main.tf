@@ -1,4 +1,4 @@
-resource "sysdig_secure_posture_accept_risk" "entire_infrastructure_sysdig_kubernetes_3.15_minimize_out_of_scope_access_serviceaccount_with_cluster_access" {
+resource "sysdig_secure_posture_accept_risk" "entire_infrastructure_sysdig_kubernetes" {
     description  = "Accept risk for Entire Infrastructure/Sysdig Kubernetes/3.15 Minimize out of scope access"
     control_name = "ServiceAccounts with cluster access"
     reason       = "Risk Not Relevant"
